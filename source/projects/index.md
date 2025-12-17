@@ -12,8 +12,3 @@ comments: true
 项目仓库：
 * [Hexo 源码仓库 MyBlog-Hexo-Butterfly](https://github.com/silentnight-sparklerain/MyBlog-Hexo-Butterfly)
 * [Hexo 自动部署仓库 silentnight-sparklerain.github.io](https://github.com/silentnight-sparklerain/silentnight-sparklerain.github.io)
-
-## 2. GitHub仓库里的子文件夹下载
-
-网页链接：[GitHub文件夹下载器](https://www.sparklerain.top/GitHub-Download-Subfolders/)
-项目仓库：[GitHub-Download-Subfolders](https://github.com/silentnight-sparklerain/GitHub-Download-Subfolders)
