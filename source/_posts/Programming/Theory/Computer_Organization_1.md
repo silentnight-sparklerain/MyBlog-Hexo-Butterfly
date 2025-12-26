@@ -10,7 +10,7 @@ hide: true
 mathjax: false
 katex: true
 highlight_shrink: true
-cover: /img/posts/计算机组成原理.jpg
+cover: /img/posts/计算机组成原理.png
 abbrlink: 77b8fe83
 date: 2025-12-19 00:00:00
 updated: 2025-12-19 00:00:00
