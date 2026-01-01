@@ -351,7 +351,7 @@ aplayer:
 #### 2. 反自反性 (Irreflexive)
 *   **定义**：没有任何元素和自己有关系。
 *   **公式**：$\forall x (x \in A \rightarrow \langle x, x \rangle \notin R)$。
-*   **集合表达式**： $R \cap I_A = \varnothing $
+*   **集合表达式**： $R \cap I_A = \varnothing$
 *   **特征**：
     *   关系矩阵：主对角线全为 $0$。
     *   关系图：每个顶点都没有自环。
@@ -360,7 +360,7 @@ aplayer:
 #### 3. 对称性 (Symmetric)
 *   **定义**：如果有 $x \to y$，就一定有 $y \to x$（双向奔赴）。
 *   **公式**：$\forall x \forall y (\langle x, y \rangle \in R \rightarrow \langle y, x \rangle \in R)$。
-*   **集合表达式**： $ R = R^{-1} $
+*   **集合表达式**： $R = R^{-1}$
 *   **特征**：
     *   关系矩阵：关于主对角线对称 ($M = M^T$)。
     *   关系图：两点之间如果有边，必须是双向边（或无边）。
@@ -376,7 +376,7 @@ aplayer:
 #### 5. 传递性 (Transitive)
 *   **定义**：如果 $x \to y$ 且 $y \to z$，那么 $x \to z$（朋友的朋友是朋友）。
 *   **公式**：$\forall x \forall y \forall z ((\langle x, y \rangle \in R \land \langle y, z \rangle \in R) \rightarrow \langle x, z \rangle \in R)$。
-*   **集合表达式**: $ R \circ R \subseteq R $
+*   **集合表达式**: $R \circ R \subseteq R$
 *   **特征**：
     *   关系矩阵：$M^2$ 中的非零位置，在 $M$ 中也是非零。
     *   关系图：如果存在 $x$ 到 $z$ 的间接路径，则必须直接有一条边 $x \to z$。
